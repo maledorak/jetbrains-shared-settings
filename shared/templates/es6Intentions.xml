@@ -1,0 +1,12 @@
+<templateSet group="es6Intentions">
+  <template name="anfunc" value="$NAME$ = ($PARAMS$) =&gt; {&#10;$CONTENT$$END$&#10;};" description="named arrow function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

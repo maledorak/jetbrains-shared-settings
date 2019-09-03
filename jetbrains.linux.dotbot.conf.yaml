@@ -1,0 +1,21 @@
+####################################
+#   JETBRAINS LINUX DOTBOT CONFIG  #
+####################################
+
+- defaults:
+    link:
+      create: true
+      force: true
+      glob: true
+      relink: true
+      relative: false
+
+- clean: ['~']
+
+- link:
+    ~/.AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio
+    ~/.CLion${CLION_VERSION}: ./apps/CLion
+    ~/.GoLand${GOLAND_VERSION}: ./apps/GoLand
+    ~/.IntelliJIdea${INTELLIJ_IDEA_VERSION}: ./apps/IntelliJIdea
+    ~/.PyCharm${PYCHARM_VERSION}: ./apps/PyCharm
+    ~/.WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm

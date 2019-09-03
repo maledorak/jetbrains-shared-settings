@@ -1,0 +1,26 @@
+<templateSet group="JavaScript">
+  <template name="conl" value="console.log($END$);" description="Console log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="retm" value="return (&#10;  $END$&#10;)" description="Return many" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ar" value="=&gt;" description="Arrow" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="deb" value="debugger;" description="Debugger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

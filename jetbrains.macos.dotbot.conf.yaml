@@ -1,0 +1,30 @@
+####################################
+#   JETBRAINS MACOS DOTBOT CONFIG  #
+####################################
+
+- defaults:
+    link:
+      create: true
+      force: true
+      glob: true
+      relink: true
+      relative: false
+
+- clean: ['~/Library/Preferences', '~/Library/Application Support']
+
+- link:
+    # apps
+    ~/Library/Preferences/AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio/config
+    ~/Library/Preferences/CLion${CLION_VERSION}: ./apps/CLion/config
+    ~/Library/Preferences/GoLand${GOLAND_VERSION}: ./apps/GoLand/config
+    ~/Library/Preferences/IntelliJIdea${INTELLIJ_IDEA_VERSION}: ./apps/IntelliJIdea/config
+    ~/Library/Preferences/PyCharm${PYCHARM_VERSION}: ./apps/PyCharm/config
+    ~/Library/Preferences/WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm/config
+
+    # plugins
+    ~/Library/Application Support/AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio/config/plugins
+    ~/Library/Application Support/CLion${CLION_VERSION}: ./apps/CLion/config/plugins
+    ~/Library/Application Support/GoLand${GOLAND_VERSION}: ./apps/GoLand/config/plugins
+    ~/Library/Application Support/IntelliJIdea${INTELLIJ_IDEA_VERSION}: ./apps/IntelliJIdea/config/plugins
+    ~/Library/Application Support/PyCharm${PYCHARM_VERSION}: ./apps/PyCharm/config/plugins
+    ~/Library/Application Support/WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm/config/plugins

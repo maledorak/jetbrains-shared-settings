@@ -1,0 +1,9 @@
+AWSCloudFormation
+NodeJS
+Subversion
+YAML/Ansible support
+com.deadlock.scsyntax
+com.wakatime.intellij.plugin
+ideanginx9
+me.serce.solidity
+ru.adelf.idea.dotenv

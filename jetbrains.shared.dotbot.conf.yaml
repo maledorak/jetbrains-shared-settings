@@ -1,0 +1,63 @@
+######################################
+#   JETBRAINS SHARED DOTBOT CONFIG  #
+######################################
+
+- defaults:
+    link:
+      create: true
+      force: true
+      glob: true
+      relink: true
+      relative: true
+
+- link:
+    # in dropbox plugins
+    ./shared/plugins: ${PLUGINS_PATH}
+
+    # shared plugins
+    ./apps/AndroidStudio/config/plugins: ./shared/plugins
+    ./apps/CLion/config/plugins: ./shared/plugins
+    ./apps/GoLand/config/plugins: ./shared/plugins
+    ./apps/IntelliJIdea/config/plugins: ./shared/plugins
+    ./apps/PyCharm/config/plugins: ./shared/plugins
+    ./apps/WebStorm/config/plugins: ./shared/plugins
+
+    # shared colors
+    ./apps/AndroidStudio/config/colors: ./shared/colors
+    ./apps/CLion/config/colors: ./shared/colors
+    ./apps/GoLand/config/colors: ./shared/colors
+    ./apps/IntelliJIdea/config/colors: ./shared/colors
+    ./apps/PyCharm/config/colors: ./shared/colors
+    ./apps/WebStorm/config/colors: ./shared/colors
+
+    # shared plugins
+    ./apps/AndroidStudio/config/codestyles: ./shared/codestyles
+    ./apps/CLion/config/codestyles: ./shared/codestyles
+    ./apps/GoLand/config/codestyles: ./shared/codestyles
+    ./apps/IntelliJIdea/config/codestyles: ./shared/codestyles
+    ./apps/PyCharm/config/codestyles: ./shared/codestyles
+    ./apps/WebStorm/config/codestyles: ./shared/codestyles
+
+      # shared keymaps
+    ./apps/AndroidStudio/config/keymaps: ./shared/keymaps
+    ./apps/CLion/config/keymaps: ./shared/keymaps
+    ./apps/GoLand/config/keymaps: ./shared/keymaps
+    ./apps/IntelliJIdea/config/keymaps: ./shared/keymaps
+    ./apps/PyCharm/config/keymaps: ./shared/keymaps
+    ./apps/WebStorm/config/keymaps: ./shared/keymaps
+
+    # shared templates
+    ./apps/AndroidStudio/config/templates: ./shared/templates
+    ./apps/CLion/config/templates: ./shared/templates
+    ./apps/GoLand/config/templates: ./shared/templates
+    ./apps/IntelliJIdea/config/templates: ./shared/templates
+    ./apps/PyCharm/config/templates: ./shared/templates
+    ./apps/WebStorm/config/templates: ./shared/templates
+
+    # shared options
+    ./apps/AndroidStudio/config/options/: ./shared/options/*
+    ./apps/CLion/config/options/: ./shared/options/*
+    ./apps/GoLand/config/options/: ./shared/options/*
+    ./apps/IntelliJIdea/config/options: ./shared/options/*
+    ./apps/PyCharm/config/options/: ./shared/options/*
+    ./apps/WebStorm/config/options/: ./shared/options/*

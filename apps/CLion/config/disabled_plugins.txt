@@ -1,0 +1,8 @@
+AWSCloudFormation
+NodeJS
+YAML/Ansible support
+com.deadlock.scsyntax
+com.juanpany.es6.intentions
+com.wakatime.intellij.plugin
+ideanginx9
+me.serce.solidity
