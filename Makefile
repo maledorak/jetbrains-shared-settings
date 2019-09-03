@@ -31,3 +31,8 @@ jetbrains-linux: jetbrains-shared ## Set jetbrains dotfiles for linux.
 jetbrains-macos: jetbrains-shared ## Set jetbrains dotfiles for macos.
 	@echo "===== Jetbrains macos dotfiles setup ====="
 	${DOTBOT} -c jetbrains.macos.dotbot.conf.yaml
+
+dotbot-latest-tag:
+	cd dotbot && git describe --tags `git rev-list --tags --max-count=1`
+
+
