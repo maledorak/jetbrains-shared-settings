@@ -20,7 +20,11 @@ export $(shell sed 's/=.*//' .env)
 help:
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
-jetbrains-shared: ## Set shared jetbrains dotfiles symlinks in JetBrains dir.
+git-init-submodules:
+	@echo "===== Init git submodules ====="
+	git submodule update --init --recursive
+
+jetbrains-shared: git-init-submodules ## Set shared jetbrains dotfiles symlinks in JetBrains dir.
 	@echo "===== Jetbrains shared dotfiles setup ====="
 	${DOTBOT} -c jetbrains.shared.dotbot.conf.yaml
 
@@ -32,7 +36,8 @@ jetbrains-macos: jetbrains-shared ## Set jetbrains dotfiles for macos.
 	@echo "===== Jetbrains macos dotfiles setup ====="
 	${DOTBOT} -c jetbrains.macos.dotbot.conf.yaml
 
-dotbot-latest-tag:
+dotbot-latest-tag: git-init-submodules ## Show dotbot latest tag.
+	@echo "===== Dotbot latest tag ====="
 	cd dotbot && git describe --tags `git rev-list --tags --max-count=1`
 
 
