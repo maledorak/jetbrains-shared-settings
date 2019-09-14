@@ -22,7 +22,7 @@ help:
 
 git-init-submodules:
 	@echo "===== Init git submodules ====="
-	git submodule update --init --recursive
+	@git submodule update --init --recursive
 
 jetbrains-shared: git-init-submodules ## Set shared jetbrains dotfiles symlinks in JetBrains dir.
 	@echo "===== Jetbrains shared dotfiles setup ====="
@@ -36,6 +36,9 @@ jetbrains-macos: jetbrains-shared ## Set jetbrains dotfiles for macos.
 	@echo "===== Jetbrains macos dotfiles setup ====="
 	${DOTBOT} -c jetbrains.macos.dotbot.conf.yaml
 
-dotbot-latest-tag: git-init-submodules ## Show dotbot latest tag.
-	@echo "===== Dotbot latest version ====="
-	cd dotbot && git describe --tags `git rev-list --tags --max-count=1`
+dotbot-version: git-init-submodules ## Show dotbot latest version.
+	@echo "===== Dotbot versions ====="
+	@echo "== Current =="
+	@cd dotbot && git describe --tags
+	@echo "== Latest =="
+	@cd dotbot && git describe --tags `git rev-list --tags --max-count=1`
