@@ -37,7 +37,5 @@ jetbrains-macos: jetbrains-shared ## Set jetbrains dotfiles for macos.
 	${DOTBOT} -c jetbrains.macos.dotbot.conf.yaml
 
 dotbot-latest-tag: git-init-submodules ## Show dotbot latest tag.
-	@echo "===== Dotbot latest tag ====="
+	@echo "===== Dotbot latest version ====="
 	cd dotbot && git describe --tags `git rev-list --tags --max-count=1`
-
-

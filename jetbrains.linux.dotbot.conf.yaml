@@ -10,7 +10,16 @@
       relink: true
       relative: false
 
-- clean: ['~']
+- shell: # Remove all symlinks old and current.
+    - function clean () {
+        find $HOME -maxdepth 1 -type d,l -regex "^.*\.${1}.*$" -delete;
+      };
+      clean AndroidStudio;
+      clean CLion;
+      clean GoLand;
+      clean IntelliJIdea;
+      clean PyCharm;
+      clean WebStorm;
 
 - link:
     ~/.AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio
