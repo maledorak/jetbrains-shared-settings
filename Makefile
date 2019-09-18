@@ -24,15 +24,15 @@ git-init-submodules:
 	@echo "===== Init git submodules ====="
 	@git submodule update --init --recursive
 
-jetbrains-shared: git-init-submodules ## Set shared jetbrains dotfiles symlinks in JetBrains dir.
+set-shared: git-init-submodules ## Set shared jetbrains dotfiles symlinks in JetBrains dir.
 	@echo "===== Jetbrains shared dotfiles setup ====="
 	${DOTBOT} -c jetbrains.shared.dotbot.conf.yaml
 
-jetbrains-linux: jetbrains-shared ## Set jetbrains dotfiles for linux.
+set-linux: set-shared ## Set jetbrains dotfiles for linux.
 	@echo "===== Jetbrains linux dotfiles setup ====="
 	${DOTBOT} -c jetbrains.linux.dotbot.conf.yaml
 
-jetbrains-macos: jetbrains-shared ## Set jetbrains dotfiles for macos.
+set-macos: set-shared ## Set jetbrains dotfiles for macos.
 	@echo "===== Jetbrains macos dotfiles setup ====="
 	${DOTBOT} -c jetbrains.macos.dotbot.conf.yaml
 
