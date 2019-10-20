@@ -36,9 +36,15 @@ set-macos: set-shared ## Set jetbrains dotfiles for macos.
 	@echo "===== Jetbrains macos dotfiles setup ====="
 	${DOTBOT} -c jetbrains.macos.dotbot.conf.yaml
 
-dotbot-version: git-init-submodules ## Show dotbot latest version.
+dotbot-version: ## Show dotbot latest version.
 	@echo "===== Dotbot versions ====="
+	@cd dotbot && git fetch --all
 	@echo "== Current =="
 	@cd dotbot && git describe --tags
 	@echo "== Latest =="
 	@cd dotbot && git describe --tags `git rev-list --tags --max-count=1`
+
+dotbot-update: ## Update dotbot to latest version.
+	@echo "===== Update Dotbot version ====="
+	@cd dotbot && git fetch --all
+	@cd dotbot && git checkout `git rev-list --tags --max-count=1`
