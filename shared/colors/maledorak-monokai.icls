@@ -4,7 +4,7 @@
     <property name="created">2019-01-02T22:19:49</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.3.3.0.0</property>
-    <property name="modified">2019-08-23T00:43:42</property>
+    <property name="modified">2019-10-10T19:20:42</property>
     <property name="originalScheme">maledorak</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -67315,7 +67315,7 @@
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR3">
       <value>
-        <option name="FOREGROUND" value="166dff" />
+        <option name="FOREGROUND" value="59c1ff" />
       </value>
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR4">

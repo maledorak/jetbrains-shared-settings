@@ -18,6 +18,7 @@ apps/*/config/consoles/db/
 apps/*/config/options/androidEditors.xml
 apps/*/config/options/androidStudioFirstRun.xml
 apps/*/config/options/baseRefactoring.xml
+apps/*/config/options/completion.factors.user.xml
 apps/*/config/options/databaseDrivers.xml
 apps/*/config/options/dimensions.xml
 apps/*/config/options/cpp.toolchains.xml
@@ -33,6 +34,7 @@ apps/*/config/options/KeyPromoterXSettings.xml
 apps/*/config/options/log_highlighting.xml
 apps/*/config/options/markdown.xml
 apps/*/config/options/other.xml
+apps/*/config/options/openinterminal.xml
 apps/*/config/options/options.xml
 apps/*/config/options/packages.xml
 apps/*/config/options/path.macros.xml
@@ -47,6 +49,7 @@ apps/*/config/options/runner.layout.xml
 apps/*/config/options/window.manager.xml
 apps/*/config/options/window.state.xml
 apps/*/config/options/web-browsers.xml
+apps/*/config/options/workspace.xml
 apps/*/config/options/vim_settings.xml
 apps/*/config/options$/vim_local_settings.xml
 apps/*/config/terminal/history
