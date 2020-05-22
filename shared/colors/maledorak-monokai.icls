@@ -4,7 +4,7 @@
     <property name="created">2019-01-02T22:19:49</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.3.3.0.0</property>
-    <property name="modified">2019-10-10T19:20:42</property>
+    <property name="modified">2020-04-03T12:37:28</property>
     <property name="originalScheme">maledorak</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -55,6 +55,12 @@
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR4">
       <value>
         <option name="FOREGROUND" value="ffd2" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="c1c100" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -721,6 +727,12 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
+    <option name="GROOVY_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="66d9ef" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="HAML_CLASS">
       <value>
         <option name="FOREGROUND" value="f92672" />
@@ -901,11 +913,6 @@
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="e6db74" />
-      </value>
-    </option>
-    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
-      <value>
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="KOTLIN_LABEL">
@@ -67620,6 +67627,12 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="b513d1" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
@@ -67653,6 +67666,13 @@
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="583535" />
+      </value>
+    </option>
+    <option name="Unresolved reference access">
+      <value>
+        <option name="FOREGROUND" value="989898" />
+        <option name="EFFECT_COLOR" value="808080" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
