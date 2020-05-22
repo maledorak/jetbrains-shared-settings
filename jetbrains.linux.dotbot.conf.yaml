@@ -13,6 +13,7 @@
 - shell: # Remove all symlinks old and current.
     - function clean () {
         find $HOME -maxdepth 1 -type d,l -regex "^.*\.${1}.*$" -delete;
+        find $HOME/.config/JetBrains -maxdepth 1 -type d,l -regex "^.*\.${1}.*$" -delete;
       };
       clean AndroidStudio;
       clean CLion;
@@ -22,9 +23,9 @@
       clean WebStorm;
 
 - link:
-    ~/.AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio
-    ~/.CLion${CLION_VERSION}: ./apps/CLion
-    ~/.GoLand${GOLAND_VERSION}: ./apps/GoLand
-    ~/.IntelliJIdea${INTELLIJ_IDEA_VERSION}: ./apps/IntelliJIdea
-    ~/.PyCharm${PYCHARM_VERSION}: ./apps/PyCharm
-    ~/.WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm
+    ~/.config/JetBrains/AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio
+    ~/.config/JetBrains/CLion${CLION_VERSION}: ./apps/CLion
+    ~/.config/JetBrains/GoLand${GOLAND_VERSION}: ./apps/GoLand
+    ~/.config/JetBrains/IntelliJIdea${INTELLIJ_IDEA_VERSION}: ./apps/IntelliJIdea
+    ~/.config/JetBrains/PyCharm${PYCHARM_VERSION}: ./apps/PyCharm
+    ~/.config/JetBrains/WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm
