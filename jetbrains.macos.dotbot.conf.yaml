@@ -22,9 +22,9 @@
     ~/Library/Preferences/WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm/config
 
     # plugins
-    ~/Library/Application Support/AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio/config/plugins
-    ~/Library/Application Support/CLion${CLION_VERSION}: ./apps/CLion/config/plugins
-    ~/Library/Application Support/GoLand${GOLAND_VERSION}: ./apps/GoLand/config/plugins
-    ~/Library/Application Support/IntelliJIdea${INTELLIJ_IDEA_VERSION}: ./apps/IntelliJIdea/config/plugins
-    ~/Library/Application Support/PyCharm${PYCHARM_VERSION}: ./apps/PyCharm/config/plugins
-    ~/Library/Application Support/WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm/config/plugins
+    ~/Library/Application Support/AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio/plugins
+    ~/Library/Application Support/CLion${CLION_VERSION}: ./apps/CLion/plugins
+    ~/Library/Application Support/GoLand${GOLAND_VERSION}: ./apps/GoLand/plugins
+    ~/Library/Application Support/IntelliJIdea${INTELLIJ_IDEA_VERSION}: ./apps/IntelliJIdea/plugins
+    ~/Library/Application Support/PyCharm${PYCHARM_VERSION}: ./apps/PyCharm/plugins
+    ~/Library/Application Support/WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm/plugins

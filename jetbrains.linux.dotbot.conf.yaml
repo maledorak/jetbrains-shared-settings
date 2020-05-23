@@ -23,9 +23,18 @@
       clean WebStorm;
 
 - link:
+    # config
     ~/.config/JetBrains/AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio
     ~/.config/JetBrains/CLion${CLION_VERSION}: ./apps/CLion
     ~/.config/JetBrains/GoLand${GOLAND_VERSION}: ./apps/GoLand
     ~/.config/JetBrains/IntelliJIdea${INTELLIJ_IDEA_VERSION}: ./apps/IntelliJIdea
     ~/.config/JetBrains/PyCharm${PYCHARM_VERSION}: ./apps/PyCharm
     ~/.config/JetBrains/WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm
+
+    # plugins todo plugins live in ch-0/somerversionhash.plugins <- fix this
+    # ~/.local/share/JetBrains/apps/ch-0/AndroidStudio${ANDROID_STUDIO_VERSION}: ./apps/AndroidStudio/plugins
+    # ~/.local/share/JetBrains/apps/ch-0/CLion${CLION_VERSION}: ./apps/CLion/plugins
+    # ~/.local/share/JetBrains/apps/ch-0/GoLand${GOLAND_VERSION}: ./apps/GoLand/plugins
+    # ~/.local/share/JetBrains/apps/ch-0/IntelliJIdea${INTELLIJ_IDEA_VERSION}: ./apps/IntelliJIdea/plugins
+    # ~/.local/share/JetBrains/apps/ch-0/PyCharm${PYCHARM_VERSION}: ./apps/PyCharm/plugins
+    # ~/.local/share/JetBrains/apps/ch-0/WebStorm${WEBSTORM_VERSION}: ./apps/WebStorm/plugins

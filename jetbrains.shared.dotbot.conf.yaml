@@ -15,49 +15,49 @@
     ./shared/plugins: ${PLUGINS_PATH}
 
     # shared plugins
-    ./apps/AndroidStudio/config/plugins: ./shared/plugins
-    ./apps/CLion/config/plugins: ./shared/plugins
-    ./apps/GoLand/config/plugins: ./shared/plugins
-    ./apps/IntelliJIdea/config/plugins: ./shared/plugins
-    ./apps/PyCharm/config/plugins: ./shared/plugins
-    ./apps/WebStorm/config/plugins: ./shared/plugins
+    ./apps/AndroidStudio/plugins: ./shared/plugins
+    ./apps/CLion/plugins: ./shared/plugins
+    ./apps/GoLand/plugins: ./shared/plugins
+    ./apps/IntelliJIdea/plugins: ./shared/plugins
+    ./apps/PyCharm/plugins: ./shared/plugins
+    ./apps/WebStorm/plugins: ./shared/plugins
 
     # shared colors
-    ./apps/AndroidStudio/config/colors: ./shared/colors
-    ./apps/CLion/config/colors: ./shared/colors
-    ./apps/GoLand/config/colors: ./shared/colors
-    ./apps/IntelliJIdea/config/colors: ./shared/colors
-    ./apps/PyCharm/config/colors: ./shared/colors
-    ./apps/WebStorm/config/colors: ./shared/colors
+    ./apps/AndroidStudio/colors: ./shared/colors
+    ./apps/CLion/colors: ./shared/colors
+    ./apps/GoLand/colors: ./shared/colors
+    ./apps/IntelliJIdea/colors: ./shared/colors
+    ./apps/PyCharm/colors: ./shared/colors
+    ./apps/WebStorm/colors: ./shared/colors
 
     # shared plugins
-    ./apps/AndroidStudio/config/codestyles: ./shared/codestyles
-    ./apps/CLion/config/codestyles: ./shared/codestyles
-    ./apps/GoLand/config/codestyles: ./shared/codestyles
-    ./apps/IntelliJIdea/config/codestyles: ./shared/codestyles
-    ./apps/PyCharm/config/codestyles: ./shared/codestyles
-    ./apps/WebStorm/config/codestyles: ./shared/codestyles
+    ./apps/AndroidStudio/codestyles: ./shared/codestyles
+    ./apps/CLion/codestyles: ./shared/codestyles
+    ./apps/GoLand/codestyles: ./shared/codestyles
+    ./apps/IntelliJIdea/codestyles: ./shared/codestyles
+    ./apps/PyCharm/codestyles: ./shared/codestyles
+    ./apps/WebStorm/codestyles: ./shared/codestyles
 
       # shared keymaps
-    ./apps/AndroidStudio/config/keymaps: ./shared/keymaps
-    ./apps/CLion/config/keymaps: ./shared/keymaps
-    ./apps/GoLand/config/keymaps: ./shared/keymaps
-    ./apps/IntelliJIdea/config/keymaps: ./shared/keymaps
-    ./apps/PyCharm/config/keymaps: ./shared/keymaps
-    ./apps/WebStorm/config/keymaps: ./shared/keymaps
+    ./apps/AndroidStudio/keymaps: ./shared/keymaps
+    ./apps/CLion/keymaps: ./shared/keymaps
+    ./apps/GoLand/keymaps: ./shared/keymaps
+    ./apps/IntelliJIdea/keymaps: ./shared/keymaps
+    ./apps/PyCharm/keymaps: ./shared/keymaps
+    ./apps/WebStorm/keymaps: ./shared/keymaps
 
     # shared templates
-    ./apps/AndroidStudio/config/templates: ./shared/templates
-    ./apps/CLion/config/templates: ./shared/templates
-    ./apps/GoLand/config/templates: ./shared/templates
-    ./apps/IntelliJIdea/config/templates: ./shared/templates
-    ./apps/PyCharm/config/templates: ./shared/templates
-    ./apps/WebStorm/config/templates: ./shared/templates
+    ./apps/AndroidStudio/templates: ./shared/templates
+    ./apps/CLion/templates: ./shared/templates
+    ./apps/GoLand/templates: ./shared/templates
+    ./apps/IntelliJIdea/templates: ./shared/templates
+    ./apps/PyCharm/templates: ./shared/templates
+    ./apps/WebStorm/templates: ./shared/templates
 
     # shared options
-    ./apps/AndroidStudio/config/options/: ./shared/options/*
-    ./apps/CLion/config/options/: ./shared/options/*
-    ./apps/GoLand/config/options/: ./shared/options/*
-    ./apps/IntelliJIdea/config/options: ./shared/options/*
-    ./apps/PyCharm/config/options/: ./shared/options/*
-    ./apps/WebStorm/config/options/: ./shared/options/*
+    ./apps/AndroidStudio/options/: ./shared/options/*
+    ./apps/CLion/options/: ./shared/options/*
+    ./apps/GoLand/options/: ./shared/options/*
+    ./apps/IntelliJIdea/options: ./shared/options/*
+    ./apps/PyCharm/options/: ./shared/options/*
+    ./apps/WebStorm/options/: ./shared/options/*

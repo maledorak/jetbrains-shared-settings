@@ -1,3 +1,0 @@
-AWSCloudFormation
-ideanginx9
-me.serce.solidity

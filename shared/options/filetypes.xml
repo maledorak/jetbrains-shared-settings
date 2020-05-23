@@ -4,27 +4,28 @@
     <extensionMap>
       <mapping pattern="*Dockerfile" type="Dockerfile" />
       <mapping pattern="Dockerfile*" type="Dockerfile" />
-      <mapping pattern="aws" type="PLAIN_TEXT" />
-      <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
-      <mapping pattern="Makefile1" type="PLAIN_TEXT" />
-      <mapping pattern="bashrc_kubuntu" type="PLAIN_TEXT" />
       <mapping pattern="stack-delete" type="PLAIN_TEXT" />
-      <mapping pattern="aliases_arch" type="PLAIN_TEXT" />
-      <mapping pattern=".jest" type="PLAIN_TEXT" />
       <mapping pattern="update-staging" type="PLAIN_TEXT" />
-      <mapping pattern="create-stackk" type="PLAIN_TEXT" />
-      <mapping pattern="update" type="PLAIN_TEXT" />
       <mapping pattern="aliases_kubuntu" type="PLAIN_TEXT" />
-      <mapping pattern="sxhkdrc" type="PLAIN_TEXT" />
-      <mapping pattern="update-production" type="PLAIN_TEXT" />
+      <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="aliases_arch" type="PLAIN_TEXT" />
+      <mapping pattern="update" type="PLAIN_TEXT" />
       <mapping pattern="aliases_macos" type="PLAIN_TEXT" />
+      <mapping pattern="Makefile1" type="PLAIN_TEXT" />
+      <mapping pattern="create-stackk" type="PLAIN_TEXT" />
+      <mapping pattern="update-production" type="PLAIN_TEXT" />
       <mapping pattern="aliases_temp" type="PLAIN_TEXT" />
+      <mapping pattern="aws" type="PLAIN_TEXT" />
+      <mapping pattern=".jest" type="PLAIN_TEXT" />
+      <mapping pattern="bashrc_kubuntu" type="PLAIN_TEXT" />
+      <mapping pattern="sxhkdrc" type="PLAIN_TEXT" />
       <mapping ext="ccbi" type="PLAIN_TEXT" />
-      <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="list" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="README" approved="true" type="PLAIN_TEXT" />
